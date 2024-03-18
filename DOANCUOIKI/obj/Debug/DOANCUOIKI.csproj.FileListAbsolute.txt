@@ -1,0 +1,17 @@
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\bin\Debug\DOANCUOIKI.exe.config
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\bin\Debug\DOANCUOIKI.exe
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\bin\Debug\DOANCUOIKI.pdb
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.csproj.AssemblyReference.cache
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.ADDPATIENT.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.Form1.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.MainForm.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.Properties.Resources.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.csproj.GenerateResource.cache
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.csproj.CoreCompileInputs.cache
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.exe
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.pdb
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.appoiment.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.Finance.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.Treatment.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.ListPatient.resources
+D:\phuhao\laptrinhwindow\DOANCUOIKI\DOANCUOIKI\obj\Debug\DOANCUOIKI.EditAndRemove.resources
