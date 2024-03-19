@@ -152,13 +152,13 @@ namespace DOANCUOIKI
 
             cl1.Value2 = "ID";
 
-            cl1.ColumnWidth = 30;
+            cl1.ColumnWidth = 20;
 
             Microsoft.Office.Interop.Excel.Range cl2 = oSheet.get_Range("B3", "B3");
 
             cl2.Value2 = "name";
 
-            cl2.ColumnWidth = 10.0;
+            cl2.ColumnWidth = 30.0;
 
             Microsoft.Office.Interop.Excel.Range cl3 = oSheet.get_Range("C3", "C3");
 
@@ -188,8 +188,8 @@ namespace DOANCUOIKI
             cl7.Value2 = "image";
 
             cl7.ColumnWidth = 20.5;
-            Microsoft.Office.Interop.Excel.Range cl8 = oSheet.get_Range("H3", "H3");
-            Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "M3");
+      
+            Microsoft.Office.Interop.Excel.Range rowHead = oSheet.get_Range("A3", "G3");
 
             rowHead.Font.Bold = true;
 
@@ -225,7 +225,7 @@ namespace DOANCUOIKI
 
             int columnStart = 1;
 
-            int rowEnd = rowStart + dataTable.Rows.Count - 2;
+            int rowEnd = rowStart + dataTable.Rows.Count - 1;
 
             int columnEnd = dataTable.Columns.Count;
 
