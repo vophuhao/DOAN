@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
+using System.IO;
 namespace DOANCUOIKI
 {
     public partial class ListPatient : Form
@@ -257,6 +258,44 @@ namespace DOANCUOIKI
 
             //Căn giữa cả bảng 
             oSheet.get_Range(c1, c2).HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
+
+        }
+
+       
+
+        private void DataGridView1_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                My_DB db = new My_DB();
+                DetailTreatment treament = new DetailTreatment();
+                string id = DataGridView1.CurrentRow.Cells[0].Value.ToString();
+                treament.labelSTT.Text += id;
+
+                SqlCommand command = new SqlCommand("SELECT * FROM Treatment where idPatient=@id", db.getConnection);
+                command.Parameters.Add("@id ", SqlDbType.VarChar).Value = id;
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                treament.labelAdvice.Text += table.Rows[0]["Advice"].ToString();
+                treament.labelDate.Text += table.Rows[0]["Date"].ToString();
+                treament.labelDoctor.Text += table.Rows[0]["nameDoctor"].ToString();
+                treament.labelMedicine.Text += table.Rows[0]["Medicine"].ToString();
+                treament.labelSTT.Text += table.Rows[0]["STT"].ToString();
+                treament.labelDieutri.Text += table.Rows[0]["Dichvu"].ToString();
+                treament.labelPatient.Text += table.Rows[0]["namePatient"].ToString();
+                treament.labelCost.Text += table.Rows[0]["Cost"].ToString();
+
+                treament.ShowDialog();
+            }
+            catch { 
+            
+               MessageBox.Show("Benh nhan chua co lich dieu tri", "Register Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

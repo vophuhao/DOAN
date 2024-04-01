@@ -74,11 +74,11 @@
     <Compile Include="Finance.Designer.cs">
       <DependentUpon>Finance.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="ListPatient.cs">
       <SubType>Form</SubType>
@@ -98,6 +98,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NHAKHOADataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="NHAKHOADataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NHAKHOADataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Patient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,11 +112,17 @@
     <Compile Include="Report.Designer.cs">
       <DependentUpon>Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="Treatment.cs">
+    <Compile Include="DetailTreatment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Treatment.Designer.cs">
-      <DependentUpon>Treatment.cs</DependentUpon>
+    <Compile Include="DetailTreatment.Designer.cs">
+      <DependentUpon>DetailTreatment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="treatmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="treatmentList.Designer.cs">
+      <DependentUpon>treatmentList.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddPatient.resx">
       <DependentUpon>AddPatient.cs</DependentUpon>
@@ -125,8 +136,8 @@
     <EmbeddedResource Include="Finance.resx">
       <DependentUpon>Finance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListPatient.resx">
       <DependentUpon>ListPatient.cs</DependentUpon>
@@ -144,8 +155,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Treatment.resx">
-      <DependentUpon>Treatment.cs</DependentUpon>
+    <EmbeddedResource Include="DetailTreatment.resx">
+      <DependentUpon>DetailTreatment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="treatmentList.resx">
+      <DependentUpon>treatmentList.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="NHAKHOADataSet.xsc">
       <DependentUpon>NHAKHOADataSet.xsd</DependentUpon>
@@ -157,6 +171,17 @@
     </None>
     <None Include="NHAKHOADataSet.xss">
       <DependentUpon>NHAKHOADataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NHAKHOADataSet1.xsc">
+      <DependentUpon>NHAKHOADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="NHAKHOADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NHAKHOADataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NHAKHOADataSet1.xss">
+      <DependentUpon>NHAKHOADataSet1.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

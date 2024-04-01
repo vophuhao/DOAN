@@ -43,7 +43,7 @@ namespace DOANCUOIKI
 
         private void TreatmentBtn_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Treatment());
+            OpenChildForm(new treatmentList());
         }
 
         private void FinanceBtn_Click(object sender, EventArgs e)
